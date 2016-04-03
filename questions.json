@@ -1,0 +1,14 @@
+{ "questions": [{
+    "author": "Andychochocho",
+    "content": "Programming tips",
+    "notes": "I am a beginner, and am wondering how to program?"
+  }, {
+    "author": "Superman",
+    "content": "Saving the planet",
+    "notes": "How do I save Earth from getting destroyed forever?"
+ }, {
+    "author": "Rock",
+    "content": "...",
+    "notes": "ME ROCK."
+ }]
+ }

@@ -1,2 +1,10 @@
-<h1>Questions</h1>
+<h1>Questions: </h1>
+
+<h3>Get some help!</h3>
+{{new-question saveQuestion="saveQuestion"}}
+
+<br>
 <h3>Help the community by answering questions!</h3>
+{{#each model as |question|}}
+  {{question-tile question=question}}
+{{/each}}
