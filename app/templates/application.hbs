@@ -1,3 +1,20 @@
-<h2 id="title">Welcome to Ember</h2>
+<nav class="navbar navbar-default">
+  <ul class="nav navbar-nav">
+    <li>{{#link-to 'index'}}Go Home{{/link-to}}</li>
+  </ul>
 
-{{outlet}}
+</nav>
+
+<header class="jumbotron">
+  <h1>Message Board</h1>
+</header>
+
+<div class="container">
+  {{outlet}}
+</div>
+
+<hr>
+
+<footer>
+  {{#link-to 'index'}}Go Home{{/link-to}}
+</footer>
