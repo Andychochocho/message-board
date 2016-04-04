@@ -1,0 +1,25 @@
+<div class="container">
+  {{#if addNewAnswer}}
+    <h1>Comment</h1>
+      <div>
+        <form>
+          <div class="form-group">
+            <label for="author">Username</label>
+            {{input value=author id="author"}}
+          </div>
+
+          <div class="form-group">
+            <div>
+              <label for="content">Answer</label>
+            </div>
+            {{input value=content id="content"}}
+          </div>
+
+          <button {{action 'formHide'}}>Hide Form</button>
+          <button {{action 'saveAnswer'}}>Comment</button>
+        </form>
+      </div>
+  {{else}}
+    <button {{action 'answerFormShow'}}>Answer Question</button>
+  {{/if}}
+</div>

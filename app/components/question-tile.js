@@ -1,7 +1,13 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  update(question, params) {
-    this.sendAction('update', question, params);
-  },
+  actions: {
+    update(question, params) {
+      this.sendAction('update', question, params);
+    },
+
+    saveAnswer(answer, params) {
+      this.sendAction('saveAnswer', answer, params);
+    },
+  }
 });

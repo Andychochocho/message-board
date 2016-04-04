@@ -6,9 +6,19 @@
     "author": "Superman",
     "content": "Saving the planet",
     "notes": "How do I save Earth from getting destroyed forever?"
- }, {
+  }, {
     "author": "Rock",
     "content": "...",
     "notes": "ME ROCK."
- }]
+  }],
+
+  "answers": [{
+    "author": "superAwesomeProgrammerGuy",
+    "content": "Just do it.",
+    "question": 0
+  }, {
+    "author": "troll",
+    "content": "Just google it, duh!",
+    "question": 2
+  }]
  }

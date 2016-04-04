@@ -1,4 +1,14 @@
 <h3>Content: {{question.content}}</h3>
-<h4>Notes: {{question.notes}}</h4>
+<h3>Notes: {{question.notes}}</h3>
+
 <br>
 {{update-question question=question update="update"}}
+
+<hr>
+<br>
+<h3>Answers: </h3>
+{{#each question.answers as |answer|}}
+<h5>Username: {{answer.author}}</h5>
+<h5>Details: {{answer.content}}</h5>
+<br>
+{{/each}}
